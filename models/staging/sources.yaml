@@ -1,0 +1,12 @@
+version: 2
+sources:
+  - name: bronze
+    description: "The bronze container from the medallion architecture"
+    tables:
+      - name: "{{var('day')}}_saleslt_address"
+      - name: "{{var('day')}}_saleslt_customer"
+      - name: "{{var('day')}}_saleslt_customeraddress"
+      - name: "{{var('day')}}_saleslt_product"
+      - name: "{{var('day')}}_saleslt_productmodel"
+      - name: "{{var('day')}}_saleslt_salesorderdetail"
+      - name: "{{var('day')}}_saleslt_salesorderheader"
